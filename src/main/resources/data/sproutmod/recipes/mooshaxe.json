@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_axe"
+  },
+  "addition": {
+    "item": "minecraft:red_mushroom"
+  },
+  "result": {
+    "item": "sproutmod:mooshaxe"
+  }
+}
