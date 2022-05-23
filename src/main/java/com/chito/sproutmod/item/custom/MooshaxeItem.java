@@ -8,4 +8,6 @@ public class MooshaxeItem extends AxeItem {
         super(pTier, pAttackDamageModifier, pAttackSpeedModifier, pProperties);
     }
 
+
+
 }
