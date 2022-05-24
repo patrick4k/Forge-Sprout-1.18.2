@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sproutmod:uncut_moonstone"
+  },
+  "result": "sproutmod:moonstone",
+  "count": 1
+}

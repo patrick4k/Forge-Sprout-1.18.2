@@ -26,8 +26,7 @@ public class ModItems {
     public static final RegistryObject<Item> SPORESTEEL_INGOT = ITEMS.register("sporesteel_ingot",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SPROUT_TAB).stacksTo(64)));
 
-
-    // MOOSH ITEMS
+    // SPORESTEEL ITEMS
     // TODO Balance modifiers
     public static final RegistryObject<Item> SPORESTEEL_SWORD = ITEMS.register("sporesteel_sword",
             () -> new SporesteelSwordItem(ModTiers.SPORESTEEL, 3, -1.5F,
@@ -44,6 +43,22 @@ public class ModItems {
     public static final RegistryObject<Item> SPORESTEEL_HOE = ITEMS.register("sporesteel_hoe",
             () -> new SporesteelHoeItem(ModTiers.SPORESTEEL, 3, -2.5F,
                     new Item.Properties().tab(ModCreativeModeTab.SPROUT_TAB).stacksTo(1).durability(100)));
+
+    // GEMS
+    public static final RegistryObject<Item> MOONSTONE = ITEMS.register("moonstone",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SPROUT_TAB).stacksTo(64)));
+    public static final RegistryObject<Item> UNCUT_MOONSTONE = ITEMS.register("uncut_moonstone",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SPROUT_TAB).stacksTo(64)));
+    public static final RegistryObject<Item> LIFE_EMERALD = ITEMS.register("life_emerald",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SPROUT_TAB).stacksTo(64)));
+    // TODO add uncut textures
+    public static final RegistryObject<Item> UNCUT_LIFE_EMERALD = ITEMS.register("uncut_life_emerald",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SPROUT_TAB).stacksTo(64)));
+    public static final RegistryObject<Item> LOVE_VESSEL = ITEMS.register("love_vessel",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SPROUT_TAB).stacksTo(64)));
+    // TODO add uncut textures
+    public static final RegistryObject<Item> UNCUT_LOVE_VESSEL = ITEMS.register("uncut_love_vessel",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SPROUT_TAB).stacksTo(64)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

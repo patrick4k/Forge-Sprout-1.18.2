@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "sproutmod:block/" }
+    "": { "model": "sproutmod:block/sporesteel_block" }
   }
 }

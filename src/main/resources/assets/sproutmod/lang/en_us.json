@@ -2,17 +2,24 @@
   "item.sproutmod.rock": "Rock",
   "item.sproutmod.raw_sporesteel": "Raw Sporesteel",
   "item.sproutmod.sporesteel_ingot": "Sporesteel Ingot",
+  "item.sproutmod.sporesteel_sword": "Sporesteel Sword",
+  "item.sproutmod.sporesteel_shovel": "Sporesteel Shovel",
+  "item.sproutmod.sporesteel_pickaxe": "Sporesteel Pickaxe",
+  "item.sproutmod.sporesteel_axe": "Sporesteel Axe",
+  "item.sproutmod.sporesteel_hoe": "Sporesteel Hoe",
+  "item.sproutmod.moonstone": "Moonstone",
+  "item.sproutmod.uncut_moonstone": "Uncut Moonstone",
+  "item.sproutmod.life_emerald": "Life Emerald",
+  "item.sproutmod.uncut_life_emerald": "Uncut Life Emerald",
+  "item.sproutmod.love_vessel": "Love Vessel",
+  "item.sproutmod.uncut_love_vessel": "Uncut Love Vessel",
 
   "block.sproutmod.sporesteel_ore": "Sporesteel Ore",
   "block.sproutmod.deepslate_sporesteel_ore": "Deepslate Sporesteel Ore",
   "block.sproutmod.sporesteel_block": "Sporesteel Block",
   "block.sproutmod.raw_sporesteel_block": "Raw Sporesteel Block",
 
-  "item.sproutmod.sporesteel_sword": "Sporesteel Sword",
-  "item.sproutmod.sporesteel_shovel": "Sporesteel Shovel",
-  "item.sproutmod.sporesteel_pickaxe": "Sporesteel Pickaxe",
-  "item.sproutmod.sporesteel_axe": "Sporesteel Axe",
-  "item.sproutmod.sporesteel_hoe": "Sporesteel Hoe",
+  "entity.sproutmod.misanthrope": "Misanthrope",
 
   "itemGroup.sprout_tab": "Sprout"
 }
