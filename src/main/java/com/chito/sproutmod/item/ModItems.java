@@ -1,7 +1,7 @@
 package com.chito.sproutmod.item;
 
 import com.chito.sproutmod.SproutMod;
-import com.chito.sproutmod.item.custom.MooshaxeItem;
+import com.chito.sproutmod.item.custom.SporesteelAxeItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SnowballItem;
 import net.minecraft.world.item.Tiers;
@@ -30,7 +30,7 @@ public class ModItems {
     // MOOSH ITEMS
     // TODO change to Sporesteel axe
     public static final RegistryObject<Item> MOOSHAXE = ITEMS.register("mooshaxe",
-            () -> new MooshaxeItem(Tiers.NETHERITE, 1, 1,
+            () -> new SporesteelAxeItem(Tiers.NETHERITE, 1, 1,
                     new Item.Properties().tab(ModCreativeModeTab.SPROUT_TAB).stacksTo(1).durability(100)));
 
     public static void register(IEventBus eventBus) {
