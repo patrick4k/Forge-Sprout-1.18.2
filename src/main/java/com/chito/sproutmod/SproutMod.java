@@ -27,7 +27,6 @@ public class SproutMod  {
     public SproutMod()
     {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        eventBus.addListener(this::setup);
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);

@@ -8,7 +8,11 @@
   "block.sproutmod.sporesteel_block": "Sporesteel Block",
   "block.sproutmod.raw_sporesteel_block": "Raw Sporesteel Block",
 
-  "item.sproutmod.sporesteel_axe": "sporesteel_axe",
+  "item.sproutmod.sporesteel_sword": "Sporesteel Sword",
+  "item.sproutmod.sporesteel_shovel": "Sporesteel Shovel",
+  "item.sproutmod.sporesteel_pickaxe": "Sporesteel Pickaxe",
+  "item.sproutmod.sporesteel_axe": "Sporesteel Axe",
+  "item.sproutmod.sporesteel_hoe": "Sporesteel Hoe",
 
   "itemGroup.sprout_tab": "Sprout"
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "sproutmod:sporesteel_ingot"
+    }
+  },
+  "result": {
+    "item": "sproutmod:sporesteel_hoe"
+  }
+}

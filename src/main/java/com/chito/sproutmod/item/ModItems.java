@@ -1,7 +1,7 @@
 package com.chito.sproutmod.item;
 
 import com.chito.sproutmod.SproutMod;
-import com.chito.sproutmod.item.custom.SporesteelAxeItem;
+import com.chito.sproutmod.item.custom.*;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SnowballItem;
 import net.minecraft.world.item.Tiers;
@@ -28,9 +28,21 @@ public class ModItems {
 
 
     // MOOSH ITEMS
-    // TODO change to Sporesteel axe
-    public static final RegistryObject<Item> MOOSHAXE = ITEMS.register("mooshaxe",
-            () -> new SporesteelAxeItem(Tiers.NETHERITE, 1, 1,
+    // TODO Balance modifiers
+    public static final RegistryObject<Item> SPORESTEEL_SWORD = ITEMS.register("sporesteel_sword",
+            () -> new SporesteelSwordItem(ModTiers.SPORESTEEL, 3, -1.5F,
+                    new Item.Properties().tab(ModCreativeModeTab.SPROUT_TAB).stacksTo(1).durability(100)));
+    public static final RegistryObject<Item> SPORESTEEL_SHOVEL= ITEMS.register("sporesteel_shovel",
+            () -> new SporesteelShovelItem(ModTiers.SPORESTEEL, 1.5F, -3.0F,
+                    new Item.Properties().tab(ModCreativeModeTab.SPROUT_TAB).stacksTo(1).durability(100)));
+    public static final RegistryObject<Item> SPORESTEEL_PICKAXE = ITEMS.register("sporesteel_pickaxe",
+            () -> new SporesteelPickaxeItem(ModTiers.SPORESTEEL, 1, -2.5F,
+                    new Item.Properties().tab(ModCreativeModeTab.SPROUT_TAB).stacksTo(1).durability(100)));
+    public static final RegistryObject<Item> SPORESTEEL_AXE = ITEMS.register("sporesteel_axe",
+            () -> new SporesteelAxeItem(ModTiers.SPORESTEEL, 6.0F, -2.0F,
+                    new Item.Properties().tab(ModCreativeModeTab.SPROUT_TAB).stacksTo(1).durability(100)));
+    public static final RegistryObject<Item> SPORESTEEL_HOE = ITEMS.register("sporesteel_hoe",
+            () -> new SporesteelHoeItem(ModTiers.SPORESTEEL, 3, -2.5F,
                     new Item.Properties().tab(ModCreativeModeTab.SPROUT_TAB).stacksTo(1).durability(100)));
 
     public static void register(IEventBus eventBus) {
