@@ -49,7 +49,7 @@ public class MisanthropeEntity extends Monster implements IAnimatable {
 
     protected void registerGoals() {
         this.goalSelector.addGoal(1, new FloatGoal(this));
-        // TODO Finalize attack speed multiplier
+        // TODO Finalize attack speed multiplier or add slowing effect
         this.goalSelector.addGoal(4, new MeleeAttackGoal(this, 1.5D, false));
         this.goalSelector.addGoal(5, new WaterAvoidingRandomStrollGoal(this, 0.8D));
         this.goalSelector.addGoal(6, new LookAtPlayerGoal(this, Player.class, 8.0F));

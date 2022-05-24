@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "raw_sporesteel",
+  "ingredients": [
+    {
+      "item": "sproutmod:raw_sporesteel_block"
+    }
+  ],
+  "result": {
+    "item": "sproutmod:raw_sporesteel",
+    "count": 9
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "sporesteel_ingot",
+  "ingredients": [
+    {
+      "item": "sproutmod:sporesteel_block"
+    }
+  ],
+  "result": {
+    "item": "sproutmod:sporesteel_ingot",
+    "count": 9
+  }
+}

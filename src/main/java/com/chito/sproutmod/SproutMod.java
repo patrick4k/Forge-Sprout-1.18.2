@@ -1,5 +1,6 @@
 package com.chito.sproutmod;
 
+import com.chito.sproutmod.block.ModBlocks;
 import com.chito.sproutmod.entity.ModEntityTypes;
 import com.chito.sproutmod.entity.client.MisnathropeRenderer;
 import com.chito.sproutmod.item.ModItems;
@@ -29,6 +30,7 @@ public class SproutMod  {
         eventBus.addListener(this::setup);
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         ModEntityTypes.register(eventBus);
 

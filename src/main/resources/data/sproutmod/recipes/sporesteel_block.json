@@ -1,19 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XX",
-    "X#",
-    " #"
+    "###",
+    "###",
+    "###"
   ],
   "key": {
     "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
       "item": "sproutmod:sporesteel_ingot"
     }
   },
   "result": {
-    "item": "sproutmod:mooshaxe"
+    "item": "sproutmod:sporesteel_block"
   }
 }

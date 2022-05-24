@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all":"sproutmod:block/sporesteel_ore"
+  }
+}

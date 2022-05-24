@@ -1,5 +1,13 @@
 {
   "item.sproutmod.rock": "Rock",
+  "item.sproutmod.raw_sporesteel": "Raw Sporesteel",
+  "item.sproutmod.sporesteel_ingot": "Sporesteel Ingot",
+
+  "block.sproutmod.sporesteel_ore": "Sporesteel Ore",
+  "block.sproutmod.deepslate_sporesteel_ore": "Deepslate Sporesteel Ore",
+  "block.sproutmod.sporesteel_block": "Sporesteel Block",
+  "block.sproutmod.raw_sporesteel_block": "Raw Sporesteel Block",
+
   "item.sproutmod.mooshaxe": "Mooshaxe",
 
   "itemGroup.sprout_tab": "Sprout"

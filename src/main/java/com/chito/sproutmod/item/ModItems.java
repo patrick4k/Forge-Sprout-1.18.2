@@ -16,9 +16,19 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, SproutMod.MOD_ID);
 
     // Add items here
+    // ROCK
     public static final RegistryObject<Item> ROCK = ITEMS.register("rock",
             () -> new SnowballItem(new Item.Properties().tab(ModCreativeModeTab.SPROUT_TAB).stacksTo(16)));
 
+    // SPORESTEEL
+    public static final RegistryObject<Item> RAW_SPORESTEEL = ITEMS.register("raw_sporesteel",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SPROUT_TAB).stacksTo(64)));
+    public static final RegistryObject<Item> SPORESTEEL_INGOT = ITEMS.register("sporesteel_ingot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SPROUT_TAB).stacksTo(64)));
+
+
+    // MOOSH ITEMS
+    // TODO change to Sporesteel axe
     public static final RegistryObject<Item> MOOSHAXE = ITEMS.register("mooshaxe",
             () -> new MooshaxeItem(Tiers.NETHERITE, 1, 1,
                     new Item.Properties().tab(ModCreativeModeTab.SPROUT_TAB).stacksTo(1).durability(100)));

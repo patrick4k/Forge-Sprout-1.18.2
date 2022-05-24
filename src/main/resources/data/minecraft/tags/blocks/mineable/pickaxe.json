@@ -1,5 +1,9 @@
 {
   "replace": false,
   "values": [
+    "sproutmod:sporesteel_ore",
+    "sproutmod:deepslate_sporesteel_ore",
+    "sproutmod:sporesteel_block",
+    "sproutmod:raw_sporesteel_block"
   ]
 }

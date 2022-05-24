@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "sporesteel_ingot",
+  "ingredient": {
+    "item": "sproutmod:deepslate_sporesteel_ore"
+  },
+  "result": "sproutmod:sporesteel_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}
