@@ -3,10 +3,7 @@ Sprout Minecraft Mod
 
 Key
 
-[JAI] = Just An Idea
-[NS] = Not Started
-[IP] = In Progress
-[F] = Finished
+[JAI] = Just An Idea; [NS] = Not Started; [IP] = In Progress; [F] = Finished
 
 1) Sporesteel [IP]
   - Ore generation [IP]
