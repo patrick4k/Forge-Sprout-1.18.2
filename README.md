@@ -15,7 +15,7 @@ Current TODOs:
 - 
 
 1) Sporesteel [IP]
-  - Ore generation [IP]
+  - Ore generation [F]
   - Tools [F] *Need Balancing*
   - Armor [NS]
   - Textures not complete for raw block and deepslate ore
