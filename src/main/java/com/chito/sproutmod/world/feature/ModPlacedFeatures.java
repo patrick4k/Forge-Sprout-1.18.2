@@ -9,7 +9,15 @@ import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 public class ModPlacedFeatures {
     // TODO balance ore generation and rarity
     // TODO add biome specific generation
+
+    // SPORESTEEL
     public static final Holder<PlacedFeature> SPORESTEEL_ORE_PLACED = PlacementUtils.register("sporesteel_ore_placed",
-            ModConfiguredFeatures.SPORESTEEL_ORE, ModOrePlacement.commonOrePlacement(9,
+            ModConfiguredFeatures.SPORESTEEL_ORE, ModOrePlacement.commonOrePlacement(9, // <- viens per chunk
                     HeightRangePlacement.triangle(VerticalAnchor.aboveBottom( -80),VerticalAnchor.aboveBottom(300))));
+
+    // MOONSTONE
+    public static final Holder<PlacedFeature> MOONSTONE_ORE_PLACED = PlacementUtils.register("moonstone_ore_placed",
+            ModConfiguredFeatures.SPORESTEEL_ORE, ModOrePlacement.commonOrePlacement(12, // <- viens per chunk
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0),VerticalAnchor.aboveBottom(400))));
+
 }
