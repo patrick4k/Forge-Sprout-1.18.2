@@ -1,6 +1,7 @@
 package com.chito.sproutmod.entity;
 
 import com.chito.sproutmod.SproutMod;
+import com.chito.sproutmod.entity.custom.FrogEntity;
 import com.chito.sproutmod.entity.custom.MisanthropeEntity;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
@@ -21,6 +22,12 @@ public class ModEntityTypes {
                     .sized(0.5f, 4.0f)
                     .build(new ResourceLocation(SproutMod.MOD_ID, "misanthrope").toString()));
 
+    // FROG
+    public static final RegistryObject<EntityType<FrogEntity>> FROG =
+            ENTITY_TYPE.register("frog",
+                    () -> EntityType.Builder.of(FrogEntity::new, MobCategory.CREATURE)
+                            .sized(0.5f, 0.5f)
+                            .build(new ResourceLocation(SproutMod.MOD_ID, "frog").toString()));
 
     public static void register(IEventBus eventBus) {
         ENTITY_TYPE.register((eventBus));

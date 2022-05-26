@@ -2,6 +2,7 @@ package com.chito.sproutmod.event;
 
 import com.chito.sproutmod.SproutMod;
 import com.chito.sproutmod.entity.ModEntityTypes;
+import com.chito.sproutmod.entity.custom.FrogEntity;
 import com.chito.sproutmod.entity.custom.MisanthropeEntity;
 import net.minecraftforge.common.loot.GlobalLootModifierSerializer;
 import net.minecraftforge.event.RegistryEvent;
@@ -23,6 +24,8 @@ public class ModEventBusEvents {
     @SubscribeEvent
     public static void entityAttributeEvent(EntityAttributeCreationEvent event) {
         event.put(ModEntityTypes.MISANTHROPE.get(), MisanthropeEntity.setAttributes());
+        event.put(ModEntityTypes.FROG.get(), FrogEntity.setAttributes());
     }
+
 
 }

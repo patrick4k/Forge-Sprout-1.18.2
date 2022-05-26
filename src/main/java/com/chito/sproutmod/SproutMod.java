@@ -2,6 +2,7 @@ package com.chito.sproutmod;
 
 import com.chito.sproutmod.block.ModBlocks;
 import com.chito.sproutmod.entity.ModEntityTypes;
+import com.chito.sproutmod.entity.client.FrogRenderer;
 import com.chito.sproutmod.entity.client.MisnathropeRenderer;
 import com.chito.sproutmod.item.ModItems;
 import com.mojang.logging.LogUtils;
@@ -47,6 +48,7 @@ public class SproutMod  {
 
     private void clientSetup(final FMLClientSetupEvent event) {
         EntityRenderers.register(ModEntityTypes.MISANTHROPE.get(), MisnathropeRenderer::new);
+        EntityRenderers.register(ModEntityTypes.FROG.get(), FrogRenderer::new);
     }
 
     private void setup(final FMLCommonSetupEvent event)
