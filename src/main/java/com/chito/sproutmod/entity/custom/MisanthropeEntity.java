@@ -61,9 +61,10 @@ public class MisanthropeEntity extends Monster implements IAnimatable {
     private <E extends IAnimatable>PlayState predicate(AnimationEvent<E> event) {
         if (event.isMoving()) {
             event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.misanthrope.walk",true));
-            return PlayState.CONTINUE;
         }
-        event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.misanthrope.idle",true));
+        else {
+            event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.misanthrope.idle",true));
+        }
         return PlayState.CONTINUE;
     }
 

@@ -31,3 +31,16 @@ Current TODOs:
       - Crimson forest?? (alternate variant maybe?)
       - Twilight forest?! (check compatibility)
   - Need custom sound effects
+4) Strawberry cow + milk
+   1) can make strawberry cake with it
+   2) find everywhere
+   3) strawberries generatation
+5) various mobs
+   1) strawberry cow
+   2) frog
+   3) mushroom people 
+      1) vilager trades 
+      2) if you open chest all the buff mushroom ppl attck you
+   4) butterfiles
+      1) drops butter
+   5) 

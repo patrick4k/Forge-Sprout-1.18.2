@@ -1,6 +1,83 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
+		"animation.misanthrope.attack": {
+			"animation_length": 1.5,
+			"bones": {
+				"spine": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, -2.5],
+							"easing": "easeInSine"
+						},
+						"0.75": {
+							"vector": [0, 0, 0],
+							"easing": "easeOutSine"
+						}
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [22.5, 0, -15],
+							"easing": "step",
+							"easingArgs": [7]
+						},
+						"1.25": {
+							"vector": [0, 0, 5],
+							"easing": "easeInSine"
+						},
+						"1.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"armR": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [-27.67878, -14.58815, 55.95921],
+							"easing": "easeOutSine"
+						},
+						"0.75": {
+							"vector": [-79.76228, -12.3071, -2.20462],
+							"easing": "easeInSine"
+						},
+						"1.5": {
+							"vector": [0, 0, 0],
+							"easing": "easeInSine"
+						}
+					}
+				},
+				"armL": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [-11.2494, -2.16489, -30.02363],
+							"easing": "easeOutSine"
+						},
+						"0.75": {
+							"vector": [-83.75, -2.16, -30.02],
+							"easing": "easeInSine"
+						},
+						"1.5": {
+							"vector": [0, 0, 0],
+							"easing": "easeInSine"
+						}
+					}
+				}
+			}
+		},
 		"animation.misanthrope.walk": {
 			"loop": true,
 			"animation_length": 2,
@@ -228,6 +305,5 @@
 				}
 			}
 		}
-	},
-	"geckolib_format_version": 2
+	}
 }

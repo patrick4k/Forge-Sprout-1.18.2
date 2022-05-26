@@ -52,8 +52,6 @@ public class SproutMod  {
     private void setup(final FMLCommonSetupEvent event)
     {
         SpawnPlacements.register(ModEntityTypes.MISANTHROPE.get(),
-                SpawnPlacements.Type.ON_GROUND,
-                Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-                Monster::checkMonsterSpawnRules);
+                SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules);
     }
 }
