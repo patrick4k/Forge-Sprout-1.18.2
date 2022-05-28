@@ -15,32 +15,35 @@ Current TODOs:
 - 
 
 1) Sporesteel [IP]
-  - Ore generation [F]
-  - Tools [F] *Need Balancing*
-  - Armor [NS]
-  - Textures not complete for raw block and deepslate ore
+   1) Ore generation [F]
+   2) Tools [F] *Need Balancing*
+   3) Armor [NS]
+   4) Textures not complete for raw block and deepslate ore
 2) Gems [JAI]
-  - Find uncut gems in lush caved, need villager or other tool to cut into cut gems. Fusing gems with helmet add effect to player depending on gem.
-  - Moonstone *Textures complete, not implemented*
-  - Heartstone
+   1) Find uncut gems in lush caved, need villager or other tool to cut into cut gems. Fusing gems with helmet add effect to player depending on gem. 
+   2) Moonstone *Textures complete, not implemented*
+   3) Heartstone
 3) Misanthrope [IP]
-  - Textures and (most) animations completed
-  - Need spawning + egg
-    - Spawning locations (unconfirmed)
-      - Dark oak forest
-      - Crimson forest?? (alternate variant maybe?)
-      - Twilight forest?! (check compatibility)
-  - Need custom sound effects
-4) Strawberry cow + milk
+   1) Textures and (most) animations completed 
+   2) Need spawning + egg 
+   3) Spawning locations (unconfirmed)
+      1) Dark oak forest 
+      2) Warped forest?? (alternate variant maybe?)
+      3) Twilight forest?! (check compatibility)
+4) Need custom sound effects
+5) Strawberry cow + milk
    1) can make strawberry cake with it
    2) find everywhere
    3) strawberries generatation
-5) various mobs
+6) various mobs
    1) strawberry cow
    2) frog
-   3) mushroom people 
-      1) vilager trades 
-      2) if you open chest all the buff mushroom ppl attck you
-   4) butterfiles
+   3) mushroom people
+      1) 2 types
+         1) small
+         2) buff
+      2) vilager trades 
+      3) if you open chest all the buff mushroom ppl attck you
+   5) butterfiles
       1) drops butter
-   5) 
+   6) 
